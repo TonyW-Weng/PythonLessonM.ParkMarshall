@@ -1,5 +1,4 @@
 # Lesson 5
-# testing
 start_money = float(input())
 cookies_sold = input()
 
