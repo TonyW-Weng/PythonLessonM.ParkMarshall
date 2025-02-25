@@ -9,5 +9,7 @@ for n in range(2, number+1):
 
     fibZero = fibOne
     fibOne = fibN
-
-print(f"Fibonacci({number}) is {fibN}")
+if number == 1:
+    print(1)
+else:
+    print(f"Fibonacci({number}) is {fibN}")
